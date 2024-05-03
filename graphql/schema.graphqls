@@ -1,0 +1,53 @@
+type Dealer {
+  batteriesCount: Int
+  id: Int
+  lastDeliveredDate: String
+  loadCompleted: Boolean
+  loadSkipped: Boolean
+  location: String
+  name: String
+  notes: [Note]
+  presoldBatteries: Int
+  products: [Product]
+  profileURL: String
+  status: Boolean
+  totalBatteries: Int
+  totalWeightInKgs: Int
+  totalWeightInLbs: Int
+}
+
+type Note {
+  id: Int
+  note: String
+}
+
+type Product {
+  bayNumber: String
+  id: Int
+  name: String
+  proposed: Int
+  shelf: String
+  total: Int
+}
+
+type Query {
+  serviceCenters(request: ServiceCenterRequest!): ServiceCentersResponse
+}
+
+input ServiceCenterRequest {
+  truckId: String!
+}
+
+type ServiceCentersResponse {
+  batteries: Int
+  dealers: [Dealer]
+  firstName: String
+  id: Int
+  lastName: String
+  messages: String
+  preSoldCount: Int
+  success: Boolean
+  temperatureInCelcius: Int
+  travelTime: String
+  weightInLbs: Int
+}

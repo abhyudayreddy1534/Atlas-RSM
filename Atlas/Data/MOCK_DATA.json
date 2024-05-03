@@ -1,0 +1,1252 @@
+[
+  {
+    "id": 1,
+    "temperatureInCelcius": 82,
+    "lastName": "Vivers",
+    "firstName": "Gabriele",
+    "travelTime": 3.1,
+    "batteries": 629,
+    "weightInLbs": 1131,
+    "preSoldCount": 81,
+    "truckNumber" : "TX20920",
+    "routeTravelled" : "R2138293",
+    "dealers": [
+      {
+        "id": 1,
+        "name": "Vandervort-Emmerich",
+        "location": "889 Orin Place",
+        "totalBatteries": 1375,
+        "products": [
+          {
+            "id": 1,
+            "name": "fusce",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 64,
+            "total": 1899
+          },
+          {
+            "id": 2,
+            "name": "convallis",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 275,
+            "total": 980
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          },
+          {
+            "id": 10,
+            "name": "tincidunt",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 104,
+            "total": 686
+          }
+        ],
+        "status": true,
+        "profileURL": "https://blogger.com/eleifend/pede/libero.html",
+        "presoldBatteries": 254,
+        "batteriesCount": 815,
+        "totalWeightInLbs": 529,
+        "totalWeightInKgs": 763,
+        "lastDeliveredDate": "11/04/2023",
+        "notes": [
+          {
+            "id": 3,
+            "note": "eget tempus vel"
+          },
+          {
+            "id": 4,
+            "note": "sapien varius ut blandit non interdum"
+          },
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      },
+      {
+        "id": 2,
+        "name": "O'Conner, Hickle and Koch",
+        "location": "63153 Larry Hill",
+        "totalBatteries": 1159,
+        "products": [
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          }
+        ],
+        "status": true,
+        "profileURL": "https://answers.com/",
+        "presoldBatteries": 125,
+        "batteriesCount": 1571,
+        "totalWeightInLbs": 1192,
+        "totalWeightInKgs": 1310,
+        "lastDeliveredDate": "10/10/2023",
+        "notes": [
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      },
+      {
+        "id": 3,
+        "name": "Goldner LLC",
+        "location": "16 Novick Road",
+        "totalBatteries": 1091,
+        "products": [
+          {
+            "id": 1,
+            "name": "fusce",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 64,
+            "total": 1899
+          },
+          {
+            "id": 2,
+            "name": "convallis",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 275,
+            "total": 980
+          },
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          }
+        ],
+        "status": false,
+        "profileURL": "http://webeden.co.uk",
+        "presoldBatteries": 222,
+        "batteriesCount": 1810,
+        "totalWeightInLbs": 1318,
+        "totalWeightInKgs": 517,
+        "lastDeliveredDate": "03/28/2024",
+        "notes": [
+          {
+            "id": 3,
+            "note": "eget tempus vel"
+          },
+          {
+            "id": 4,
+            "note": "sapien varius ut blandit non interdum"
+          },
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          },
+          {
+            "id": 6,
+            "note": "sit amet cursus id"
+          },
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": false
+      },
+      {
+        "id": 4,
+        "name": "Kutch-Waters",
+        "location": "1 Florence Circle",
+        "totalBatteries": 1783,
+        "products": [
+          {
+            "id": 2,
+            "name": "convallis",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 275,
+            "total": 980
+          },
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          }
+        ],
+        "status": false,
+        "profileURL": "http://phoca.cz",
+        "presoldBatteries": 258,
+        "batteriesCount": 1367,
+        "totalWeightInLbs": 790,
+        "totalWeightInKgs": 940,
+        "lastDeliveredDate": "01/10/2024",
+        "notes": [
+          {
+            "id": 6,
+            "note": "sit amet cursus id"
+          },
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          },
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          },
+          {
+            "id": 10,
+            "note": "potenti cras in"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      },
+      {
+        "id": 5,
+        "name": "Farrell and Sons",
+        "location": "84683 Shasta Center",
+        "totalBatteries": 1366,
+        "products": [
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          }
+        ],
+        "status": false,
+        "profileURL": "http://baidu.com",
+        "presoldBatteries": 55,
+        "batteriesCount": 843,
+        "totalWeightInLbs": 1420,
+        "totalWeightInKgs": 1205,
+        "lastDeliveredDate": "04/26/2023",
+        "notes": [
+          {
+            "id": 2,
+            "note": "fusce"
+          },
+          {
+            "id": 3,
+            "note": "eget tempus vel"
+          },
+          {
+            "id": 4,
+            "note": "sapien varius ut blandit non interdum"
+          },
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          },
+          {
+            "id": 6,
+            "note": "sit amet cursus id"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": true
+      },
+      {
+        "id": 6,
+        "name": "Paucek, Considine and Ward",
+        "location": "0 Jackson Avenue",
+        "totalBatteries": 1292,
+        "products": [
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          }
+        ],
+        "status": false,
+        "profileURL": "https://mayoclinic.com",
+        "presoldBatteries": 145,
+        "batteriesCount": 1515,
+        "totalWeightInLbs": 1687,
+        "totalWeightInKgs": 826,
+        "lastDeliveredDate": "07/28/2023",
+        "notes": [
+          {
+            "id": 2,
+            "note": "fusce"
+          },
+          {
+            "id": 3,
+            "note": "eget tempus vel"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      },
+      {
+        "id": 7,
+        "name": "Jacobson, White and Graham",
+        "location": "6097 Coolidge Terrace",
+        "totalBatteries": 1912,
+        "products": [
+          {
+            "id": 1,
+            "name": "fusce",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 64,
+            "total": 1899
+          },
+          {
+            "id": 2,
+            "name": "convallis",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 275,
+            "total": 980
+          },
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          }
+        ],
+        "status": true,
+        "profileURL": "http://sun.com",
+        "presoldBatteries": 68,
+        "batteriesCount": 929,
+        "totalWeightInLbs": 559,
+        "totalWeightInKgs": 1518,
+        "lastDeliveredDate": "07/31/2023",
+        "notes": [
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          },
+          {
+            "id": 6,
+            "note": "sit amet cursus id"
+          },
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": true
+      },
+      {
+        "id": 8,
+        "name": "Effertz, Kohler and Brekke",
+        "location": "68747 Marcy Plaza",
+        "totalBatteries": 1894,
+        "products": [
+          {
+            "id": 2,
+            "name": "convallis",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 275,
+            "total": 980
+          },
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          }
+        ],
+        "status": true,
+        "profileURL": "https://pinterest.com/mattis",
+        "presoldBatteries": 209,
+        "batteriesCount": 1377,
+        "totalWeightInLbs": 1020,
+        "totalWeightInKgs": 1941,
+        "lastDeliveredDate": "03/05/2024",
+        "notes": [
+          {
+            "id": 4,
+            "note": "sapien varius ut blandit non interdum"
+          },
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      },
+      {
+        "id": 9,
+        "name": "Gorczany, Quitzon and Murphy",
+        "location": "85 Bunting Alley",
+        "totalBatteries": 1048,
+        "products": [
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          },
+          {
+            "id": 10,
+            "name": "tincidunt",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 104,
+            "total": 686
+          }
+        ],
+        "status": false,
+        "profileURL": "http://twitpic.com/amet",
+        "presoldBatteries": 249,
+        "batteriesCount": 1932,
+        "totalWeightInLbs": 1040,
+        "totalWeightInKgs": 1206,
+        "lastDeliveredDate": "07/06/2023",
+        "notes": [
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          },
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": true
+      },
+      {
+        "id": 10,
+        "name": "Kirlin Group",
+        "location": "92 Grim Hill",
+        "totalBatteries": 679,
+        "products": [
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          }
+        ],
+        "status": false,
+        "profileURL": "https://123-reg.co.uk/imperdiet",
+        "presoldBatteries": 59,
+        "batteriesCount": 1253,
+        "totalWeightInLbs": 931,
+        "totalWeightInKgs": 1958,
+        "lastDeliveredDate": "12/29/2023",
+        "notes": [
+          {
+            "id": 3,
+            "note": "eget tempus vel"
+          },
+          {
+            "id": 4,
+            "note": "sapien varius ut blandit non interdum"
+          },
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          },
+          {
+            "id": 6,
+            "note": "sit amet cursus id"
+          },
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "temperatureInCelcius": 71,
+    "lastName": "O' Borne",
+    "firstName": "Sheryl",
+    "travelTime": 2.37,
+    "batteries": 268,
+    "weightInLbs": 1960,
+    "preSoldCount": 257,
+    "truckNumber" : "TX20920",
+    "routeTravelled" : "R2138293",
+    "dealers": [
+      {
+        "id": 2,
+        "name": "O'Conner, Hickle and Koch",
+        "location": "63153 Larry Hill",
+        "totalBatteries": 1159,
+        "products": [
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          }
+        ],
+        "status": true,
+        "profileURL": "https://answers.com/",
+        "presoldBatteries": 125,
+        "batteriesCount": 1571,
+        "totalWeightInLbs": 1192,
+        "totalWeightInKgs": 1310,
+        "lastDeliveredDate": "10/10/2023",
+        "notes": [
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": false
+      },
+      {
+        "id": 6,
+        "name": "Paucek, Considine and Ward",
+        "location": "0 Jackson Avenue",
+        "totalBatteries": 1292,
+        "products": [
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          }
+        ],
+        "status": false,
+        "profileURL": "https://mayoclinic.com",
+        "presoldBatteries": 145,
+        "batteriesCount": 1515,
+        "totalWeightInLbs": 1687,
+        "totalWeightInKgs": 826,
+        "lastDeliveredDate": "07/28/2023",
+        "notes": [
+          {
+            "id": 2,
+            "note": "fusce"
+          },
+          {
+            "id": 3,
+            "note": "eget tempus vel"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": true
+      },
+      {
+        "id": 7,
+        "name": "Jacobson, White and Graham",
+        "location": "6097 Coolidge Terrace",
+        "totalBatteries": 1912,
+        "products": [
+          {
+            "id": 1,
+            "name": "fusce",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 64,
+            "total": 1899
+          },
+          {
+            "id": 2,
+            "name": "convallis",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 275,
+            "total": 980
+          },
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          }
+        ],
+        "status": true,
+        "profileURL": "http://sun.com",
+        "presoldBatteries": 68,
+        "batteriesCount": 929,
+        "totalWeightInLbs": 559,
+        "totalWeightInKgs": 1518,
+        "lastDeliveredDate": "07/31/2023",
+        "notes": [
+          {
+            "id": 5,
+            "note": "erat id mauris vulputate"
+          },
+          {
+            "id": 6,
+            "note": "sit amet cursus id"
+          },
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": true
+      },
+      {
+        "id": 9,
+        "name": "Gorczany, Quitzon and Murphy",
+        "location": "85 Bunting Alley",
+        "totalBatteries": 1048,
+        "products": [
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          },
+          {
+            "id": 10,
+            "name": "tincidunt",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 104,
+            "total": 686
+          }
+        ],
+        "status": false,
+        "profileURL": "http://twitpic.com/amet",
+        "presoldBatteries": 249,
+        "batteriesCount": 1932,
+        "totalWeightInLbs": 1040,
+        "totalWeightInKgs": 1206,
+        "lastDeliveredDate": "07/06/2023",
+        "notes": [
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          },
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "temperatureInCelcius": 31,
+    "lastName": "Klos",
+    "firstName": "Junina",
+    "travelTime": 9.76,
+    "batteries": 627,
+    "weightInLbs": 1092,
+    "preSoldCount": 212,
+    "truckNumber" : "TX20920",
+    "routeTravelled" : "R2138293",
+    "dealers": [
+      {
+        "id": 2,
+        "name": "O'Conner, Hickle and Koch",
+        "location": "63153 Larry Hill",
+        "totalBatteries": 1159,
+        "products": [
+          {
+            "id": 3,
+            "name": "arcu",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 152,
+            "total": 1501
+          },
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          }
+        ],
+        "status": true,
+        "profileURL": "https://answers.com/",
+        "presoldBatteries": 125,
+        "batteriesCount": 1571,
+        "totalWeightInLbs": 1192,
+        "totalWeightInKgs": 1310,
+        "lastDeliveredDate": "10/10/2023",
+        "notes": [
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          }
+        ],
+        "loadCompleted": true,
+        "loadSkipped": false
+      },
+      {
+        "id": 9,
+        "name": "Gorczany, Quitzon and Murphy",
+        "location": "85 Bunting Alley",
+        "totalBatteries": 1048,
+        "products": [
+          {
+            "id": 4,
+            "name": "nisl",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 206,
+            "total": 1050
+          },
+          {
+            "id": 5,
+            "name": "nisi",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 32,
+            "total": 244
+          },
+          {
+            "id": 6,
+            "name": "libero",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 69,
+            "total": 1280
+          },
+          {
+            "id": 7,
+            "name": "pellentesque",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 136,
+            "total": 861
+          },
+          {
+            "id": 8,
+            "name": "ac",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 164,
+            "total": 1352
+          },
+          {
+            "id": 9,
+            "name": "volutpat",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 233,
+            "total": 1001
+          },
+          {
+            "id": 10,
+            "name": "tincidunt",
+            "shelf": "123 A",
+            "bayNumber": "3 C",
+            "proposed": 104,
+            "total": 686
+          }
+        ],
+        "status": false,
+        "profileURL": "http://twitpic.com/amet",
+        "presoldBatteries": 249,
+        "batteriesCount": 1932,
+        "totalWeightInLbs": 1040,
+        "totalWeightInKgs": 1206,
+        "lastDeliveredDate": "07/06/2023",
+        "notes": [
+          {
+            "id": 7,
+            "note": "praesent id massa id"
+          },
+          {
+            "id": 8,
+            "note": "sapien placerat ante nulla justo"
+          },
+          {
+            "id": 9,
+            "note": "rutrum nulla"
+          }
+        ],
+        "loadCompleted": false,
+        "loadSkipped": false
+      }
+    ]
+  }
+]

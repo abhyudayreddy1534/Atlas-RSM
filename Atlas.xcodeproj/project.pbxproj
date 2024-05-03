@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543DE79B2BE061C600DBED8F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 543DE79A2BE061C600DBED8F /* Apollo */; };
+		543DE79E2BE06CA300DBED8F /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 543DE79D2BE06CA300DBED8F /* Queries.graphql */; };
+		543DE7A02BE06F2C00DBED8F /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543DE79F2BE06F2C00DBED8F /* Apollo.swift */; };
+		543DE7A32BE06F5F00DBED8F /* AtlasAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 543DE7A22BE06F5F00DBED8F /* AtlasAPI */; };
+		543DE7A62BE06F9C00DBED8F /* DealerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543DE7A52BE06F9C00DBED8F /* DealerViewModel.swift */; };
+		543DE7A92BE07E9B00DBED8F /* AtlasAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 543DE7A82BE07E9B00DBED8F /* AtlasAPI */; };
+		543DE7AB2BE1719800DBED8F /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 543DE7AA2BE1719800DBED8F /* Users.json */; };
+		543DE7AF2BE173B700DBED8F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543DE7AE2BE173B700DBED8F /* LoginView.swift */; };
+		543DE7B12BE173D500DBED8F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543DE7B02BE173D500DBED8F /* LoginViewModel.swift */; };
+		543DE7B32BE174DD00DBED8F /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543DE7B22BE174DD00DBED8F /* UserLogin.swift */; };
+		5442E6FF2BC9A99900819739 /* AtlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E6FE2BC9A99900819739 /* AtlasApp.swift */; };
+		5442E7012BC9A99900819739 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7002BC9A99900819739 /* MainView.swift */; };
+		5442E7032BC9A99B00819739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5442E7022BC9A99B00819739 /* Assets.xcassets */; };
+		5442E7062BC9A99B00819739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5442E7052BC9A99B00819739 /* Preview Assets.xcassets */; };
+		5442E70E2BC9AB1300819739 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E70D2BC9AB1300819739 /* HomeView.swift */; };
+		5442E7102BC9AB1E00819739 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E70F2BC9AB1E00819739 /* MessagesView.swift */; };
+		5442E7122BC9AB3100819739 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7112BC9AB3100819739 /* NotificationView.swift */; };
+		5442E7142BC9AB3B00819739 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7132BC9AB3B00819739 /* MenuView.swift */; };
+		5442E71A2BCEEE8400819739 /* MOCK_DATA.json in Resources */ = {isa = PBXBuildFile; fileRef = 5442E7192BCEEE8400819739 /* MOCK_DATA.json */; };
+		5442E71C2BCEEEB000819739 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E71B2BCEEEB000819739 /* CodableBundleExtension.swift */; };
+		5442E71E2BCEF1B500819739 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E71D2BCEF1B500819739 /* User.swift */; };
+		5442E7202BCEF2F200819739 /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E71F2BCEF2F200819739 /* Dealer.swift */; };
+		5442E7222BCEF3BB00819739 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7212BCEF3BB00819739 /* Product.swift */; };
+		5442E7242BCEF3CA00819739 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7232BCEF3CA00819739 /* Note.swift */; };
+		5442E7262BCEF87600819739 /* UserHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7252BCEF87600819739 /* UserHeaderView.swift */; };
+		5442E7292BCEF99200819739 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E7282BCEF99200819739 /* Constants.swift */; };
+		5442E72B2BCEFD4500819739 /* UserInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E72A2BCEFD4500819739 /* UserInfoLabel.swift */; };
+		5442E72D2BCF010000819739 /* DealerRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442E72C2BCF010000819739 /* DealerRowItem.swift */; };
+		54B693B02BDB436A00F3EC6A /* DealerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693AF2BDB436A00F3EC6A /* DealerDetailView.swift */; };
+		54B693B22BDB438100F3EC6A /* DealerDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693B12BDB438100F3EC6A /* DealerDetailHeaderView.swift */; };
+		54B693B42BDB451B00F3EC6A /* DealerNameLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693B32BDB451B00F3EC6A /* DealerNameLocationView.swift */; };
+		54B693B62BDC0F5800F3EC6A /* RoundedBorderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693B52BDC0F5800F3EC6A /* RoundedBorderModifier.swift */; };
+		54B693B82BDC104F00F3EC6A /* DealerDetailHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693B72BDC104F00F3EC6A /* DealerDetailHeaderItem.swift */; };
+		54B693BA2BDC198A00F3EC6A /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693B92BDC198A00F3EC6A /* ProductListView.swift */; };
+		54B693BC2BDC1F8B00F3EC6A /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693BB2BDC1F8B00F3EC6A /* DividerView.swift */; };
+		54B693BE2BDC3AA700F3EC6A /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693BD2BDC3AA700F3EC6A /* NotesView.swift */; };
+		54B693C02BDC591700F3EC6A /* ReviewLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693BF2BDC591700F3EC6A /* ReviewLoadView.swift */; };
+		54B693C22BDC607900F3EC6A /* CheckoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B693C12BDC607900F3EC6A /* CheckoutScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		543DE79D2BE06CA300DBED8F /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		543DE79F2BE06F2C00DBED8F /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		543DE7A52BE06F9C00DBED8F /* DealerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerViewModel.swift; sourceTree = "<group>"; };
+		543DE7AA2BE1719800DBED8F /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		543DE7AE2BE173B700DBED8F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		543DE7B02BE173D500DBED8F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		543DE7B22BE174DD00DBED8F /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		5442E6FB2BC9A99900819739 /* Atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5442E6FE2BC9A99900819739 /* AtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasApp.swift; sourceTree = "<group>"; };
+		5442E7002BC9A99900819739 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5442E7022BC9A99B00819739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5442E7052BC9A99B00819739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5442E70D2BC9AB1300819739 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5442E70F2BC9AB1E00819739 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		5442E7112BC9AB3100819739 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5442E7132BC9AB3B00819739 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5442E7192BCEEE8400819739 /* MOCK_DATA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOCK_DATA.json; sourceTree = "<group>"; };
+		5442E71B2BCEEEB000819739 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		5442E71D2BCEF1B500819739 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5442E71F2BCEF2F200819739 /* Dealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		5442E7212BCEF3BB00819739 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5442E7232BCEF3CA00819739 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		5442E7252BCEF87600819739 /* UserHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeaderView.swift; sourceTree = "<group>"; };
+		5442E7282BCEF99200819739 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5442E72A2BCEFD4500819739 /* UserInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoLabel.swift; sourceTree = "<group>"; };
+		5442E72C2BCF010000819739 /* DealerRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerRowItem.swift; sourceTree = "<group>"; };
+		54B693AA2BDB37AC00F3EC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		54B693AF2BDB436A00F3EC6A /* DealerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailView.swift; sourceTree = "<group>"; };
+		54B693B12BDB438100F3EC6A /* DealerDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailHeaderView.swift; sourceTree = "<group>"; };
+		54B693B32BDB451B00F3EC6A /* DealerNameLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerNameLocationView.swift; sourceTree = "<group>"; };
+		54B693B52BDC0F5800F3EC6A /* RoundedBorderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderModifier.swift; sourceTree = "<group>"; };
+		54B693B72BDC104F00F3EC6A /* DealerDetailHeaderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerDetailHeaderItem.swift; sourceTree = "<group>"; };
+		54B693B92BDC198A00F3EC6A /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		54B693BB2BDC1F8B00F3EC6A /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		54B693BD2BDC3AA700F3EC6A /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		54B693BF2BDC591700F3EC6A /* ReviewLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLoadView.swift; sourceTree = "<group>"; };
+		54B693C12BDC607900F3EC6A /* CheckoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5442E6F82BC9A99900819739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543DE79B2BE061C600DBED8F /* Apollo in Frameworks */,
+				543DE7A32BE06F5F00DBED8F /* AtlasAPI in Frameworks */,
+				543DE7A92BE07E9B00DBED8F /* AtlasAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543DE79C2BE06C3900DBED8F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				543DE79D2BE06CA300DBED8F /* Queries.graphql */,
+				543DE79F2BE06F2C00DBED8F /* Apollo.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		543DE7A42BE06F7E00DBED8F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				543DE7A52BE06F9C00DBED8F /* DealerViewModel.swift */,
+				543DE7B02BE173D500DBED8F /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5442E6F22BC9A99900819739 = {
+			isa = PBXGroup;
+			children = (
+				5442E6FD2BC9A99900819739 /* Atlas */,
+				5442E6FC2BC9A99900819739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5442E6FC2BC9A99900819739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5442E6FB2BC9A99900819739 /* Atlas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5442E6FD2BC9A99900819739 /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				543DE7A42BE06F7E00DBED8F /* ViewModel */,
+				543DE79C2BE06C3900DBED8F /* GraphQL */,
+				54B693AA2BDB37AC00F3EC6A /* Info.plist */,
+				5442E7272BCEF97B00819739 /* Utility */,
+				5442E6FE2BC9A99900819739 /* AtlasApp.swift */,
+				5442E7002BC9A99900819739 /* MainView.swift */,
+				5442E70C2BC9AADF00819739 /* Screens */,
+				5442E7152BCEEDD200819739 /* Views */,
+				5442E7182BCEEE4200819739 /* Extension */,
+				5442E7172BCEEE3D00819739 /* Model */,
+				5442E7162BCEEE3400819739 /* Data */,
+				5442E7022BC9A99B00819739 /* Assets.xcassets */,
+				5442E7042BC9A99B00819739 /* Preview Content */,
+			);
+			path = Atlas;
+			sourceTree = "<group>";
+		};
+		5442E7042BC9A99B00819739 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5442E7052BC9A99B00819739 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5442E70C2BC9AADF00819739 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5442E70D2BC9AB1300819739 /* HomeView.swift */,
+				5442E70F2BC9AB1E00819739 /* MessagesView.swift */,
+				5442E7112BC9AB3100819739 /* NotificationView.swift */,
+				5442E7132BC9AB3B00819739 /* MenuView.swift */,
+				54B693AF2BDB436A00F3EC6A /* DealerDetailView.swift */,
+				54B693BF2BDC591700F3EC6A /* ReviewLoadView.swift */,
+				54B693C12BDC607900F3EC6A /* CheckoutScreen.swift */,
+				543DE7AE2BE173B700DBED8F /* LoginView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5442E7152BCEEDD200819739 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5442E7252BCEF87600819739 /* UserHeaderView.swift */,
+				5442E72A2BCEFD4500819739 /* UserInfoLabel.swift */,
+				5442E72C2BCF010000819739 /* DealerRowItem.swift */,
+				54B693B12BDB438100F3EC6A /* DealerDetailHeaderView.swift */,
+				54B693B32BDB451B00F3EC6A /* DealerNameLocationView.swift */,
+				54B693B72BDC104F00F3EC6A /* DealerDetailHeaderItem.swift */,
+				54B693B92BDC198A00F3EC6A /* ProductListView.swift */,
+				54B693BD2BDC3AA700F3EC6A /* NotesView.swift */,
+				54B693BB2BDC1F8B00F3EC6A /* DividerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5442E7162BCEEE3400819739 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5442E7192BCEEE8400819739 /* MOCK_DATA.json */,
+				543DE7AA2BE1719800DBED8F /* Users.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5442E7172BCEEE3D00819739 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5442E71D2BCEF1B500819739 /* User.swift */,
+				543DE7B22BE174DD00DBED8F /* UserLogin.swift */,
+				5442E71F2BCEF2F200819739 /* Dealer.swift */,
+				5442E7212BCEF3BB00819739 /* Product.swift */,
+				5442E7232BCEF3CA00819739 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5442E7182BCEEE4200819739 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5442E71B2BCEEEB000819739 /* CodableBundleExtension.swift */,
+				54B693B52BDC0F5800F3EC6A /* RoundedBorderModifier.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5442E7272BCEF97B00819739 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5442E7282BCEF99200819739 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5442E6FA2BC9A99900819739 /* Atlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5442E7092BC9A99C00819739 /* Build configuration list for PBXNativeTarget "Atlas" */;
+			buildPhases = (
+				5442E6F72BC9A99900819739 /* Sources */,
+				5442E6F82BC9A99900819739 /* Frameworks */,
+				5442E6F92BC9A99900819739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atlas;
+			packageProductDependencies = (
+				543DE79A2BE061C600DBED8F /* Apollo */,
+				543DE7A22BE06F5F00DBED8F /* AtlasAPI */,
+				543DE7A82BE07E9B00DBED8F /* AtlasAPI */,
+			);
+			productName = Atlas;
+			productReference = 5442E6FB2BC9A99900819739 /* Atlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5442E6F32BC9A99900819739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5442E6FA2BC9A99900819739 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5442E6F62BC9A99900819739 /* Build configuration list for PBXProject "Atlas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5442E6F22BC9A99900819739;
+			packageReferences = (
+				543DE7992BE061C600DBED8F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				543DE7A72BE07E9B00DBED8F /* XCLocalSwiftPackageReference "AtlasAPI" */,
+			);
+			productRefGroup = 5442E6FC2BC9A99900819739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5442E6FA2BC9A99900819739 /* Atlas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5442E6F92BC9A99900819739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5442E71A2BCEEE8400819739 /* MOCK_DATA.json in Resources */,
+				5442E7062BC9A99B00819739 /* Preview Assets.xcassets in Resources */,
+				543DE79E2BE06CA300DBED8F /* Queries.graphql in Resources */,
+				543DE7AB2BE1719800DBED8F /* Users.json in Resources */,
+				5442E7032BC9A99B00819739 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5442E6F72BC9A99900819739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B693BC2BDC1F8B00F3EC6A /* DividerView.swift in Sources */,
+				543DE7A62BE06F9C00DBED8F /* DealerViewModel.swift in Sources */,
+				5442E7102BC9AB1E00819739 /* MessagesView.swift in Sources */,
+				54B693C22BDC607900F3EC6A /* CheckoutScreen.swift in Sources */,
+				5442E7142BC9AB3B00819739 /* MenuView.swift in Sources */,
+				5442E7202BCEF2F200819739 /* Dealer.swift in Sources */,
+				54B693B62BDC0F5800F3EC6A /* RoundedBorderModifier.swift in Sources */,
+				54B693B42BDB451B00F3EC6A /* DealerNameLocationView.swift in Sources */,
+				54B693BE2BDC3AA700F3EC6A /* NotesView.swift in Sources */,
+				5442E70E2BC9AB1300819739 /* HomeView.swift in Sources */,
+				54B693B22BDB438100F3EC6A /* DealerDetailHeaderView.swift in Sources */,
+				5442E7012BC9A99900819739 /* MainView.swift in Sources */,
+				5442E71E2BCEF1B500819739 /* User.swift in Sources */,
+				54B693BA2BDC198A00F3EC6A /* ProductListView.swift in Sources */,
+				54B693C02BDC591700F3EC6A /* ReviewLoadView.swift in Sources */,
+				5442E6FF2BC9A99900819739 /* AtlasApp.swift in Sources */,
+				5442E7292BCEF99200819739 /* Constants.swift in Sources */,
+				5442E72D2BCF010000819739 /* DealerRowItem.swift in Sources */,
+				5442E7242BCEF3CA00819739 /* Note.swift in Sources */,
+				543DE7A02BE06F2C00DBED8F /* Apollo.swift in Sources */,
+				5442E7222BCEF3BB00819739 /* Product.swift in Sources */,
+				543DE7B12BE173D500DBED8F /* LoginViewModel.swift in Sources */,
+				5442E71C2BCEEEB000819739 /* CodableBundleExtension.swift in Sources */,
+				543DE7AF2BE173B700DBED8F /* LoginView.swift in Sources */,
+				54B693B82BDC104F00F3EC6A /* DealerDetailHeaderItem.swift in Sources */,
+				54B693B02BDB436A00F3EC6A /* DealerDetailView.swift in Sources */,
+				543DE7B32BE174DD00DBED8F /* UserLogin.swift in Sources */,
+				5442E7262BCEF87600819739 /* UserHeaderView.swift in Sources */,
+				5442E7122BC9AB3100819739 /* NotificationView.swift in Sources */,
+				5442E72B2BCEFD4500819739 /* UserInfoLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5442E7072BC9A99B00819739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5442E7082BC9A99B00819739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5442E70A2BC9A99C00819739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Atlas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Atlas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsm.Atlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5442E70B2BC9A99C00819739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Atlas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Atlas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsm.Atlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5442E6F62BC9A99900819739 /* Build configuration list for PBXProject "Atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5442E7072BC9A99B00819739 /* Debug */,
+				5442E7082BC9A99B00819739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5442E7092BC9A99C00819739 /* Build configuration list for PBXNativeTarget "Atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5442E70A2BC9A99C00819739 /* Debug */,
+				5442E70B2BC9A99C00819739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		543DE7A72BE07E9B00DBED8F /* XCLocalSwiftPackageReference "AtlasAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AtlasAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		543DE7992BE061C600DBED8F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		543DE79A2BE061C600DBED8F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 543DE7992BE061C600DBED8F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		543DE7A22BE06F5F00DBED8F /* AtlasAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtlasAPI;
+		};
+		543DE7A82BE07E9B00DBED8F /* AtlasAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtlasAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5442E6F32BC9A99900819739 /* Project object */;
+}

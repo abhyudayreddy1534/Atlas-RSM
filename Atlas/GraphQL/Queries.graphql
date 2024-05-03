@@ -1,0 +1,45 @@
+# Write your query or mutation here
+
+query GetDealers($request: ServiceCenterRequest!) {
+  serviceCenters(request: $request) {
+    ... on ServiceCentersResponse {
+      id
+      temperatureInCelcius
+      lastName
+      firstName
+      travelTime
+      batteries
+      weightInLbs
+      preSoldCount
+      success
+      messages
+      dealers {
+        id
+        name
+        location
+        totalBatteries
+        status
+        profileURL
+        presoldBatteries
+        batteriesCount
+        totalWeightInLbs
+        totalWeightInKgs
+        lastDeliveredDate
+        loadSkipped
+        loadCompleted
+        products {
+          id
+          name
+          shelf
+          bayNumber
+          proposed
+          total
+        }
+        notes {
+          id
+          note
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "username": "sravanthi",
+    "password": "pass@123",
+    "userId": 1,
+    "firstname": "John",
+    "lastname": "Doe"
+  },
+  {
+    "username": "abhyuday",
+    "password": "pass@123",
+    "userId": 2,
+    "firstname": "Jane",
+    "lastname": "Smith"
+  },
+  {
+    "username": "manideep",
+    "password": "pass@123",
+    "userId": 3,
+    "firstname": "Alex",
+    "lastname": "Jones"
+  }
+]
